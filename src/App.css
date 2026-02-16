@@ -38,34 +38,7 @@
 } */
 
 
-/* Style pour la page d'accueil de Paradise Nursery */
 .landing-page {
-    height: 100vh;
-    width: 100%;
-    /* Remplacez l'URL par une vraie image de plantes si vous en avez une */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                      url('https://images.unsplash.com/photo-1466781783364-391eaf54cf1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80');
+    background-image: url('./assets/background.jpg');
     background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}
-
-.start-button {
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.start-button:hover {
-    background-color: #45a049;
 }
